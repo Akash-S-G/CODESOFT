@@ -31,6 +31,7 @@ function App() {
       
       <div className='flex items-center justify-center  w-full '>
         <div className="shadow-lg p-5 bg-gray-400 rounded">
+        <h1 className='left-0 text-center mb-2 font-bold'>Calculator</h1>
           <input type="text" readOnly className='bg-gray-200 border-2 rounded p-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 ' placeholder='SIMPLE CALCULATOR' onChange={setinput} value={input} id='input' />
 
           <div className='grid grid-cols-3 gap-2 mt-5 col h-full'>
